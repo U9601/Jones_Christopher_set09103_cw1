@@ -15,7 +15,7 @@ def mediumtank():
 
 @app.route('/heavytank')
 def heavytank():
-        return render_template('HeavyTank.html')
+        return render_template('HeavyTanks.html')
 
 @app.route('/tankdestroyers')
 def tankdestroyers():
