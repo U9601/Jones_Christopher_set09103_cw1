@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  {% block content %}
+    {% if name == 'Object140' %}
+      <h1>Object 277 - Soviet(Russian) </h1>
+      <p> Soviet Medium Tank </p>
+    {% elif name == 'CenturianActionX' %}
+      <h1> Centurian Action X - British </h1>
+      <p> British Medium Tank </p>
+    {% elif name == 'T-54' %}
+      <h1> T-54 - Soviet(Russian)</h1>
+      <p> Soviet Medium Tank </p>
+    {% elif name == 'M46Pershing' %}
+      <h1> M46 Pershing - American Tank </h1>
+      <p> American Medium Tank </p>
+    {% endif %}
+  {% endblock %}
+</head>
+</html>
