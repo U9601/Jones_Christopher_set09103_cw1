@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  {% block content %}
+    {% if name == 'T-100LT' %}
+      <h1>T-100 LT - Soviet(Russian) </h1>
+      <p> Soviet Light Tank </p>
+    {% elif name == 'M3Stuart' %}
+      <h1> M3 Stuart - American </h1>
+      <p> American Light Tank </p>
+    {% elif name == 'Sheridan' %}
+      <h1> Sheridan - American</h1>
+      <p> American Light Tank </p>
+    {% elif name == 'PanzerII' %}
+      <h1> PanzerII - German </h1>
+      <p> German Light Tank </p>
+    {% endif %}
+  {% endblock %}
+</head>
+</html>
