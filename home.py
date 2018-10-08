@@ -58,7 +58,7 @@ def M46Pershing():
 def HeavyTank():
     return render_template('HeavyTanks.html')
 
-@app.route('/heavytank/Object277')
+@app.route('/heavytank/Object277/')
 def Object277():
     name = 'Object277'
     return render_template('HeavyTanks.html')
