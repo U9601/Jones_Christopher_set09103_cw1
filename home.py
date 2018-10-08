@@ -61,7 +61,7 @@ def HeavyTank():
 @app.route('/heavytank/Object277')
 def Object277():
     name = 'Object277'
-        return render_template('HeavyTanks.html')
+    return render_template('HeavyTanks.html')
 
 @app.route('/heavytank/Challenger2')
 def Challenger2():
