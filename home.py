@@ -24,6 +24,11 @@ def Sheridan():
     name = 'Sheridan'
     return render_template('LightTanks.html')
 
+@app.route('/lighttank/PanzerII')
+def PanzerII():
+    name = 'Panzer II'
+    return render_template('LightTanks.html')
+
 @app.route('/mediumtank')
 def mediumtank():
         return render_template('MediumTanks.html')
