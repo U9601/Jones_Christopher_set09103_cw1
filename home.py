@@ -51,17 +51,17 @@ def T54():
 @app.route('/mediumtank/M46Pershing')
 def M46Pershing():
     name = 'M46Pershing'
-    return render_template('MediumTanks.html')
+    return render_template('MediumTanks.html', name = name)
 
 
 @app.route('/heavytank/')
 def HeavyTank():
     return render_template('HeavyTanks.html')
 
-@app.route('/heavytank/Object277/')
+@app.route('/heavytank/Object277')
 def Object277():
     name = 'Object277'
-    return render_template('HeavyTanks.html')
+    return render_template('HeavyTanks.html', name = name)
 
 @app.route('/heavytank/Challenger2')
 def Challenger2():
