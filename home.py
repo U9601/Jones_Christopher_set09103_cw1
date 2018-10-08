@@ -11,12 +11,12 @@ def lighttank():
 
 @app.route('/lighttank/T-100LT')
 def T100LT():
-    name = 'T-100 LT'
+    name = 'T-100LT'
     return render_template('LightTanks.html')
 
 @app.route('/lighttank/M3Stuart')
 def M3Stuart():
-    name = 'M3 Stuart'
+    name = 'M3Stuart'
     return render_template('LightTanks.html')
 
 @app.route('/lighttank/Sheridan')
@@ -26,7 +26,7 @@ def Sheridan():
 
 @app.route('/lighttank/PanzerII')
 def PanzerII():
-    name = 'Panzer II'
+    name = 'PanzerII'
     return render_template('LightTanks.html')
 
 @app.route('/mediumtank')
@@ -35,12 +35,12 @@ def mediumtank():
 
 @app.route('/mediumtank/Object140')
 def Object140():
-    name = 'Object 140'
+    name = 'Object140'
     return render_template('MediumTanks.html')
 
 @app.route('/mediumtank/CenturianActionX')
 def CenturianActionX():
-    name = 'Centurian Action X'
+    name = 'CenturianActionX'
     return render_template('MediumTanks.html')
 
 @app.route('/mediumtank/T-54')
@@ -50,7 +50,7 @@ def T54():
 
 @app.route('/mediumtank/M46Pershing')
 def M46Pershing():
-    name = 'M46 Pershing'
+    name = 'M46Pershing'
     return render_template('MediumTanks.html')
 
 
@@ -60,12 +60,12 @@ def HeavyTank():
 
 @app.route('/heavytank/Object277')
 def Object277():
-    name = 'Object 277'
+    name = 'Object277'
     return render_template('HeavyTanks.html')
 
 @app.route('/heavytank/Challenger2')
 def Challenger2():
-    name = 'Challenger 2'
+    name = 'Challenger2'
     return render_template('HeavyTanks.html')
 
 @app.route('/heavytank/Maus')
@@ -89,12 +89,12 @@ def JagdTiger():
 
 @app.route('/tankdestroyers/StrvS1')
 def StrvS1():
-    name = 'Strv S1'
+    name = 'StrvS1'
     return render_template('TankDestroyers.html')
 
 @app.route('/tankdestroyers/ConqueorGunCarrier')
 def ConqueorGunCarrier():
-    name = 'Conqueor Gun Carrier'
+    name = 'ConqueorGunCarrier'
     return render_template('TankDestroyers.html')
 
 @app.route('/tankdestroyers/Hellcat')
