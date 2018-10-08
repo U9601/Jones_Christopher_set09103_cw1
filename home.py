@@ -15,6 +15,10 @@ def mediumtank():
 
 @app.route('/heavytank')
 def heavytank():
+    name = "Object 277"
+    name = "Challenger 2"
+    name = "Maus"
+    name = "Tiger"
         return render_template('HeavyTanks.html')
 
 @app.route('/tankdestroyers')
