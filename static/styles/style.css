@@ -90,7 +90,7 @@ body, html {
 /* The hero image */
 .hero-image2 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.therookies.co/media/reviews/photos/original/e7/22/79/john-olofinskiy-tiger-tank-study-29-1523524781.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/vEoeAVXgJS4/maxresdefault.jpg");
 
     /* Set a specific height */
     height: 50%;
