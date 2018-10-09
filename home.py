@@ -38,9 +38,9 @@ def Object140():
     name = 'Object140'
     return render_template('MediumTanks.html', name = name)
 
-@app.route('/mediumtank/CenturianActionX/')
-def CenturianActionX():
-    name = 'CenturianActionX'
+@app.route('/mediumtank/CenturionActionX/')
+def CenturionActionX():
+    name = 'CenturionActionX'
     return render_template('MediumTanks.html', name = name)
 
 @app.route('/mediumtank/T-54/')
