@@ -3,6 +3,52 @@
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Light Tanks
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/lighttank/T-100LT">T-100 LT</a>
+      <a href="/lighttank/M3Stuart">M3 Stuart</a>
+      <a href="/lighttank/Sheridan">Sheridan</a>
+      <a href="/lighttank/PanzerII">Panzer II</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Medium Tanks
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/mediumtank/Object140">Object 140</a>
+      <a href="/mediumtank/CenturianActionX">Centurian Action X</a>
+      <a href="/mediumtank/T-54">T-54</a>
+      <a href="/mediumtank/M46Pershing">M46 Pershing</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Heavy Tanks
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/heavytank/Object277">Object 277</a>
+      <a href="/heavytank/Challenger2">Challenger 2</a>
+      <a href="/heavytank/Maus">Maus</a>
+      <a href="/heavytank/Tiger">Tiger</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Tank Destroyers
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="/tankdestroyers/JagdTiger">JagdTiger</a>
+      <a href="/tankdestroyers/StrvS1">Strv S1</a>
+      <a href="/tankdestroyers/ConqueorGunCarrier">Conqueor Gun Carrier</a>
+      <a href="/tankdestroyers/Hellcat">Hellcat</a>
+    </div>
+  </div>
+</div>
 </head>
 <body>
   {% block content %}
