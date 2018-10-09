@@ -3,6 +3,44 @@
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  {% block content %}
+    {% if name == 'JagdTiger' %}
+      <div class="hero-image">
+      <div class="hero-text">
+        <center><h1>JadgTiger - German</h1>
+          <h2>German Tank Destroyer</h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'StrvS1' %}
+      <div class="hero-image">
+      <div class="hero-text">
+        <center><h1>Strv S1 - Swedish </h1>
+          <h2>Swedish Tank Destroyer</h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'ConqueorGunCarrier' %}
+      <div class="hero-image">
+      <div class="hero-text">
+        <center><h1>Conqueor Gun Carrier - British </h1>
+          <h2>British Tank Destroyer</h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'Hellcat' %}
+      <div class="hero-image">
+      <div class="hero-text">
+        <center><h1>Hellcat - American </h1>
+          <h2>American Tank Destroyer</h2>
+        </center>
+      </div>
+      </div>
+    {% endif %}
+  {% endblock %}
+
   <div class="navbar">
   <div class="dropdown">
     <button class="dropbtn">Light Tanks
@@ -49,42 +87,5 @@
     </div>
   </div>
 </div>
-</head>
-<body>
-  {% block content %}
-    {% if name == 'JagdTiger' %}
-      <div class="hero-image">
-      <div class="hero-text">
-        <center><h1>JadgTiger - German</h1>
-          <h2>German Tank Destroyer</h2>
-        </center>
-      </div>
-      </div>
-    {% elif name == 'StrvS1' %}
-      <div class="hero-image">
-      <div class="hero-text">
-        <center><h1>Strv S1 - Swedish </h1>
-          <h2>Swedish Tank Destroyer</h2>
-        </center>
-      </div>
-      </div>
-    {% elif name == 'ConqueorGunCarrier' %}
-      <div class="hero-image">
-      <div class="hero-text">
-        <center><h1>Conqueor Gun Carrier - British </h1>
-          <h2>British Tank Destroyer</h2>
-        </center>
-      </div>
-      </div>
-    {% elif name == 'Hellcat' %}
-      <div class="hero-image">
-      <div class="hero-text">
-        <center><h1>Hellcat - American </h1>
-          <h2>American Tank Destroyer</h2>
-        </center>
-      </div>
-      </div>
-    {% endif %}
-  {% endblock %}
 </body>
 </html>
