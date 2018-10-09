@@ -14,7 +14,6 @@
         </center>
       </div>
       </div>
-      <p>lol</p>
     {% elif name == 'Challenger2' %}
       <div class="hero-image3">
       <div class="hero-text">
@@ -89,5 +88,38 @@
     </div>
   </div>
 </div>
+
+{% block content %}
+  {% if name == 'Object277' %}
+  <p> Developed in 1956–1958 at the Kirov Plant, Leningrad, under the supervision of Joseph Kotin. Two prototypes were produced and underwent trials from 1959 through 1960.
+    A hull and a turret were produced for testing for shell resistance. The development was discontinued in the summer of 1960 due to insufficient development of certain systems and components.
+    In addition, the vehicle did not demonstrate any advantage over the Object 770 heavy tank. </p>
+  <ul style="list-style-type:disc">
+    <li>Crew</li>
+    <ul style="list-style-type:circle">
+      <li>Commander</li>
+      <li>Driver</li>
+      <li>Gunner</li>
+      <li>loader</li>
+    </ul>
+    <li>Mobility</li>
+    <ul style="list-style-type:circle">
+      <li>Engine Power: 950hp</li>
+      <li>Speed Limit: 55/15 km/h</li>
+      <li>Traverse 32 deg/sr</li>
+      <li>Power/Wt Ratio 17.27 hp/t</li>
+    </ul>
+    <li>Armour</li>
+    <ul style="list-style-type:circle">
+      <li>Hull Armour 140/112/50 mm</li>
+      <li>Turret Armour 290/224/80 mm</li>
+    </ul>
+  </ul>
+  {% elif name == 'Challenger2' %}
+  {% elif name == 'Maus' %}
+  {% elif name == 'Tiger' %}
+  {% endif %}
+{% endblock %}
+
 </body>
 </html>
