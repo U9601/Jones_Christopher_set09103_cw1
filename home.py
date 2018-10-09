@@ -92,9 +92,9 @@ def StrvS1():
     name = 'StrvS1'
     return render_template('TankDestroyers.html', name = name)
 
-@app.route('/tankdestroyers/ConqueorGunCarrier/')
+@app.route('/tankdestroyers/ChurchillGunCarrier/')
 def ConqueorGunCarrier():
-    name = 'ConqueorGunCarrier'
+    name = 'ChurchillGunCarrier'
     return render_template('TankDestroyers.html', name = name)
 
 @app.route('/tankdestroyers/Hellcat/')
