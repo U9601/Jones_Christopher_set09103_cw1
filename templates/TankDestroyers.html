@@ -38,6 +38,14 @@
         </center>
       </div>
       </div>
+    {% elif name == '' %}
+      <div class="hero-image22">
+      <div class="hero-text">
+        <center><h1>All Tank Destroyers </h1>
+          <h2>All Tank Destroyers List</h2>
+        </center>
+      </div>
+      </div>
     {% endif %}
   {% endblock %}
 
@@ -190,6 +198,31 @@ It has a very powerful 32-pounder anti-tank gun, one of the most powerful guns a
         <li>Turret Armour: 25.4/12.7/12.7 mm</li>
       </ul>
     </ul>
+  {% elif name == '' %}
+  <div class="w3-main" style="margin-left:300px">
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  <div class="w3-row">
+    <div class="w3-third">
+      <h1> German </h1>
+      <img src="https://i.ytimg.com/vi/ih6xHTrGUsc/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/tankdestroyers/JagdTiger'" width="300" height="300">
+      <h1>JadgTiger</h1>
+    </div>
+    <div class="w3-third">
+      <h1> Swedish </h1>
+      <img src="https://i2.wp.com/wottalk.com/wp-content/uploads/2017/10/Strv-103-0.jpg?fit=1280%2C720&ssl=1" style="width:100%" onclick="window.location.href= '/tankdestroyers/StrvS1'" width="300" height="300">
+      <h1>Centurion Action X</h1>
+    </div>
+    <div class="w3-third">
+      <h1> American </h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/M18_hellcat_side.jpg/1200px-M18_hellcat_side.jpg" style="width:100%" onclick="window.location.href= '/tankdestroyers/Hellcat'" width="300" height="300">
+      <h1>Hellcat</h1>
+    </div>
+    <div class="w3-third">
+      <h1> British </h1>
+      <img src="https://i.ytimg.com/vi/P16by37lPOU/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/tankdestroyers/ChurchillGunCarrier'" width="300" height="300">
+      <h1>Churchill Gun Carrier</h1>
+    </div>
+ </div>
 {% endif %}
 </body>
 </html>
