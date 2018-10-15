@@ -41,8 +41,8 @@
     {% elif name == '' %}
     <div class="hero-image19">
     <div class="hero-text">
-      <center><h1>Nations Tanks </h1>
-        <h2>All of the Tanks by Nation</h2>
+      <center><h1>All German Tanks </h1>
+        <h2>All German Tanks</h2>
      </center>
     </div>
     </div>
@@ -179,7 +179,6 @@
           <li>Turret Armour: 260/210/210 mm</li>
         </ul>
       </ul>
-
   {% elif name == 'Tiger' %}
   <h4> The Tiger I About this sound listen (help·info) is a German heavy tank of World War II deployed from 1942 in Africa and Europe, usually in independent heavy tank battalions.
     Its final designation was Panzerkampfwagen VI Tiger Ausf. E often shortened to Tiger. The Tiger I gave the Wehrmacht its first armoured fighting vehicle that mounted the 8.8 cm KwK 36 gun (not to be confused with the 8.8 cm Flak 36).
@@ -209,6 +208,17 @@
       <ul style="list-style-type:circle">
         <li>Hull Armour: 100/80/80 mm</li>
         <li>Turret Armour: 100/80/80 mm</li>
+      </ul>
+    </ul>
+    {% elif name == '' %}
+    <ul style="list-style-type:disc">
+      <li>German Tanks</li>
+      <ul style="list-style-type:circle">
+        <li>Panzer II <a href="/lighttanks/PanzerII"> </a></li>
+        <li>Tiger</li>
+        <li>JagdTiger</li>
+        <li>Radio Operator</li>
+        <li>Maus</li>
       </ul>
     </ul>
   {% endif %}
