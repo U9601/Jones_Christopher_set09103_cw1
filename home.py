@@ -9,6 +9,9 @@ def home():
 def lighttank():
         return render_template('LightTanks.html')
 
+@app.route('/lighttanks')
+def lightanks():
+        return redirect( url_for ('lighttank') )
 
 @app.route('/LightTank')
 def LightTank():
@@ -39,11 +42,11 @@ def mediumtank():
         return render_template('MediumTanks.html')
 
 @app.route('/MediumTank')
-def LightTank():
+def MediumTank():
         return redirect( url_for ('mediumtank') )
 
 @app.route('/mediumtanks')
-def LightTank():
+def mediumtanks():
         return redirect( url_for ('mediumtank') )
 
 @app.route('/mediumtank/Object140/')
@@ -68,15 +71,15 @@ def M46Pershing():
 
 
 @app.route('/heavytank/')
-def HeavyTank():
+def heavytank():
     return render_template('HeavyTanks.html')
 
 @app.route('/HeavyTank')
-def LightTank():
+def HeavyTank():
         return redirect( url_for ('heavytank') )
 
 @app.route('/heavytanks')
-def LightTank():
+def heavytanks():
         return redirect( url_for ('heavytank') )
 
 @app.route('/heavytank/Object277/')
@@ -104,11 +107,11 @@ def tankdestroyers():
         return render_template('TankDestroyers.html')
 
 @app.route('/TankDestroyers')
-def LightTank():
+def TankDestroyers():
         return redirect( url_for ('tankdestroyers') )
 
 @app.route('/tankdestroyer')
-def LightTank():
+def tankdestroyer():
         return redirect( url_for ('tankdestroyers') )
 
 
