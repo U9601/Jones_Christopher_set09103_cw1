@@ -11,7 +11,7 @@ def lighttank():
 
 @app.route('/LightTank')
 def LightTank():
-        return redirect( url_for ('LightsTanks.html') )
+        return redirect( url_for ('lighttank') )
 
 @app.route('/lighttank/T-100LT/')
 def T100LT():
