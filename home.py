@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, redirect
 app = Flask(__name__)
 
 @app.route('/')
@@ -8,6 +8,10 @@ def home():
 @app.route('/lighttank')
 def lighttank():
         return render_template('LightTanks.html')
+
+@app.route('/LightTank')
+def LightTank():
+        return redirect( url_for ('LightsTanks.html') )
 
 @app.route('/lighttank/T-100LT/')
 def T100LT():
