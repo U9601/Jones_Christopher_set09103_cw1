@@ -9,9 +9,6 @@ def home():
 def lighttank():
         return render_template('LightTanks.html')
 
-@app.route('/lighttanks')
-def LightTank():
-        return redirect( url_for ('lighttank') )
 
 @app.route('/LightTank')
 def LightTank():
