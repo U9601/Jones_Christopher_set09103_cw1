@@ -9,7 +9,7 @@ def home():
 def lighttank():
         return render_template('LightTanks.html')
 
-@app.route('/Lighttanks')
+@app.route('/lighttanks')
 def LightTank():
         return redirect( url_for ('lighttank') )
 
@@ -45,7 +45,7 @@ def mediumtank():
 def LightTank():
         return redirect( url_for ('mediumtank') )
 
-@app.route('/Mediumtanks')
+@app.route('/mediumtanks')
 def LightTank():
         return redirect( url_for ('mediumtank') )
 
