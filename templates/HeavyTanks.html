@@ -211,15 +211,27 @@
       </ul>
     </ul>
     {% elif name == '' %}
-    <ul style="list-style-type:disc">
-      <li>German Tanks</li>
-      <ul style="list-style-type:circle">
-        <li><a href="/lighttank/PanzerII">Panzer II <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Sd_Kfz_121_Panzerkampfwagen_II_Ausf_F_%28Panzer_II%29_%284536135405%29.jpg" width="100" height="100"></a></li>
-        <li><a href="/heavytank/Tiger">Tiger</a></li>
-        <li><a href="/tankdestroyers/JagdTiger">JagdTiger</a></li>
-        <li><a href="/heavytank/Maus">Maus</a></li>
-      </ul>
-    </ul>
+    <div class="w3-main" style="margin-left:300px">
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+    <div class="w3-row">
+      <h1> German </h1>
+      <div class="w3-third">
+        <img src="https://i.ytimg.com/vi/ntgMWbtwCec/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/heavytank/Maus'" width="300" height="300">
+        <h1>Maus</h1>
+        <img src="http://www.therookies.co/media/reviews/photos/original/e7/22/79/john-olofinskiy-tiger-tank-study-29-1523524781.jpg" style="width:100%" onclick="window.location.href= '/heavytank/Tiger'" width="300" height="300">
+        <h1>Tiger</h1>
+      </div>
+      <h1> Soviet(Russian) </h1>
+      <div class="w3-third">
+        <img src="https://i.ytimg.com/vi/vEoeAVXgJS4/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/heavytank/Object277'" width="300" height="300">
+        <h1>Object 277</h1>
+      </div>
+      <h1> British </h1>
+      <div class="w3-third">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Challenger_2_Main_Battle_Tank_patrolling_outside_Basra%2C_Iraq_MOD_45148325.jpg/1200px-Challenger_2_Main_Battle_Tank_patrolling_outside_Basra%2C_Iraq_MOD_45148325.jpg" style="width:100%" onclick="window.location.href= '/heavytank/Challenger2'" width="300" height="300">
+        <h1>Challenger 2</h1>
+      </div>
+   </div>
   {% endif %}
 
 </body>
