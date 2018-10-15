@@ -72,6 +72,20 @@ body, html {
     height: 100%;
 }
 
+.hero-image21 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.wwiivehicles.com/united-states/vehicle/medium-tank/m4-medium-tank-sherman/m4a3-medium-tank-sherman/m4a3e8-medium-tank-sherman-09.png");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .hero-image20 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.military-today.com/tanks/mars_15.jpg");

@@ -38,6 +38,14 @@
         </center>
       </div>
       </div>
+    {% elif name == '' %}
+      <div class="hero-image21">
+      <div class="hero-text">
+        <center><h1>All Medium Tanks</h1>
+          <h2>All Medium Tanks Listed</h2>
+        </center>
+      </div>
+      </div>
     {% endif %}
   {% endblock %}
 
@@ -189,6 +197,28 @@
       <li>Turret Armour: 101.6/76.2/76.2 mm</li>
     </ul>
   </ul>
+  {% elif name == '' %}
+  <div class="w3-main" style="margin-left:300px">
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  <div class="w3-row">
+    <div class="w3-third">
+      <h1> Soviet(Russian) </h1>
+      <img src="https://i.ytimg.com/vi/ev_BsaoArsU/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/mediumtank/Object140'" width="300" height="300">
+      <h1>Object 140</h1>
+      <img src="https://i.ytimg.com/vi/iDjKNmizfUY/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/mediumtank/Object140'" width="300" height="300">
+      <h1>T-54</h1>
+    </div>
+    <div class="w3-third">
+      <h1> British </h1>
+      <img src="https://i.ytimg.com/vi/PLO1q4VbC24/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/lighttank/T-100LT'" width="300" height="300">
+      <h1>Centurion Action X</h1>
+    </div>
+    <div class="w3-third">
+      <h1> American </h1>
+      <img src="https://i.ytimg.com/vi/ih6xHTrGUsc/maxresdefault.jpg" style="width:100%" onclick="window.location.href= '/lighttank/Sheridan'" width="300" height="300">
+      <h1>M46 Patton</h1>
+    </div>
+ </div>
 {% endif %}
 
 </body>
