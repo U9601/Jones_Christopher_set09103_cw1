@@ -5,13 +5,58 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-  <div class="hero-image23">
-  <div class="hero-text">
-    <center><h1>All Nations Tanks </h1>
-      <h2>All Tanks by Nation</h2>
-   </center>
-  </div>
-  </div>
+  {% block content %}
+    {% if name == 'German' %}
+      <div class="hero-image24">
+      <div class="hero-text">
+        <center><h1>German Tanks</h1>
+          <h2>For the Fatherland </h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'Russian' %}
+      <div class="hero-image25">
+      <div class="hero-text">
+        <center><h1>Russian Tanks</h1>
+          <h2>For the Motherland </h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'British' %}
+      <div class="hero-image26">
+      <div class="hero-text">
+        <center><h1>British Tanks</h1>
+          <h2>For the Glory of the British Empire</h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'American' %}
+      <div class="hero-image27">
+      <div class="hero-text">
+        <center><h1>American</h1>
+          <h2>hoooo Raaaah Marines</h2>
+        </center>
+      </div>
+      </div>
+    {% elif name == 'Swedish' %}
+        <div class="hero-image13">
+        <div class="hero-text">
+          <center><h1>Swedish</h1>
+            <h2>Pewdewpi is one of our own</h2>
+          </center>
+        </div>
+        </div>
+    {% elif name == '' %}
+      <div class="hero-image23">
+      <div class="hero-text">
+        <center><h1>Nations</h1>
+          <h2>All Tanks by Nation </h2>
+        </center>
+      </div>
+      </div>
+    {% endif %}
+  {% endblock %}
+
   <div class="navbar">
     <a href="/"><img src="http://www.wyelearn.co.uk/img/homeGen.png" width="20" height="20"> </a>
   <div class="dropdown">

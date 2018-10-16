@@ -141,7 +141,8 @@ def Hellcat():
 
 @app.route('/nations')
 def nations():
-    return render_template('Nations.html')
+    name = ''
+    return render_template('Nations.html', name = name)
 
 @app.route('/Nations')
 def Nations():
