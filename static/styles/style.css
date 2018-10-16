@@ -72,6 +72,20 @@ body, html {
     height: 100%;
 }
 
+.hero-image23 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img00.deviantart.net/2b03/i/2015/117/5/a/south_park_wwii_nations_by_southparkphilosopher-d47mi77.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
 .hero-image22 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://qph.fs.quoracdn.net/main-qimg-6eaa48368802a6374868bf16dacfaff6-c");

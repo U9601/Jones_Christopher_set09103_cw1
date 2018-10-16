@@ -139,8 +139,17 @@ def Hellcat():
     name = 'Hellcat'
     return render_template('TankDestroyers.html', name = name)
 
+@app.route('/nations')
+def nations():
+    return render_template('Nations.html')
 
+@app.route('/Nations')
+def Nations():
+    return redirect( url_for ('nations') )
 
+@app.route('/nation')
+def Nations():
+    return redirect( url_for ('nations') )
 
 
 if __name__ == "__main__":
