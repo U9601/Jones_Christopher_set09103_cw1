@@ -148,7 +148,7 @@ def Nations():
     return redirect( url_for ('nations') )
 
 @app.route('/nation')
-def Nations():
+def nation():
     return redirect( url_for ('nations') )
 
 
