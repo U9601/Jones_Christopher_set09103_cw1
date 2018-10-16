@@ -151,6 +151,30 @@ def Nations():
 def nation():
     return redirect( url_for ('nations') )
 
+@app.route('/nations/German')
+def German():
+    name = 'German'
+    return render_template('Nations.html', name = name)
+
+@app.route('/nations/Russian')
+def Russian():
+    name = 'Russian'
+    return render_template('Nations.html', name = name)
+
+@app.route('/nations/British')
+def British():
+    name = 'British'
+    return render_template('Nations.html', name = name)
+
+@app.route('/nations/American')
+def American():
+    name = 'American'
+    return render_template('Nations.html', name = name)
+
+@app.route('/nations/Swedish')
+def Swedish():
+    name = 'Swedish'
+    return render_template('Nations.html', name = name)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
