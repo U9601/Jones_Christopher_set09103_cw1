@@ -177,5 +177,92 @@ def Swedish():
     name = 'Swedish'
     return render_template('Nations.html', name = name)
 
+@app.route('/caliber')
+def caliber():
+    name = ''
+    return render_template('Caliber.html', name = name)
+
+@app.route('/Caliber')
+def Caliber():
+    return redirect( url_for ('caliber') )
+
+@app.route('/calibers')
+def calibers():
+    return redirect( url_for ('caliber') )
+
+@app.route('/caliber/100mm')
+def 100mm():
+    name = '100mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/37mm')
+def 37mm():
+    name = '37mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/152mm')
+def 152mm():
+    name = '152mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/2cm')
+def 2cm():
+    name = '2cm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/105mm')
+def 105mm():
+    name = '105mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/90mm')
+def 90mm():
+    name = '90mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/130mm')
+def 130mm():
+    name = '130mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/120mm')
+def 120mm():
+    name = '90mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/12.8cm')
+def 12.8cm():
+    name = '12.8cm'
+    return render_template('Caliber.html', name = name)
+
+
+@app.route('/caliber/8.8cm')
+def 8.8cm():
+    name = '90mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/90mm')
+def 90mm():
+    name = '90mm'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/32-pdr')
+def 32-pdr():
+    name = '32-pdr'
+    return render_template('Caliber.html', name = name)
+
+@app.route('/caliber/76mm')
+def 76mm():
+    name = '76mm'
+    return render_template('Caliber.html', name = name)
+
+
+
+
+
+
+
+
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
