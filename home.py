@@ -191,68 +191,63 @@ def calibers():
     return redirect( url_for ('caliber') )
 
 @app.route('/caliber/100mm')
-def 100mm():
+def one00mm():
     name = '100mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/37mm')
-def 37mm():
+def thirty7mm():
     name = '37mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/152mm')
-def 152mm():
+def onehundred52mm():
     name = '152mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/2cm')
-def 2cm():
+def twocm():
     name = '2cm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/105mm')
-def 105mm():
+def onehundred05mm():
     name = '105mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/90mm')
-def 90mm():
+def nintymm():
     name = '90mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/130mm')
-def 130mm():
+def onehundred30mm():
     name = '130mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/120mm')
-def 120mm():
+def onehundred20mm():
     name = '90mm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/12.8cm')
-def 12.8cm():
+def twelevepoint8cm():
     name = '12.8cm'
     return render_template('Caliber.html', name = name)
 
 
 @app.route('/caliber/8.8cm')
-def 8.8cm():
-    name = '90mm'
-    return render_template('Caliber.html', name = name)
-
-@app.route('/caliber/90mm')
-def 90mm():
-    name = '90mm'
+def eightpoint8cm():
+    name = '8.8cm'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/32-pdr')
-def 32-pdr():
+def thirthy2-pdr():
     name = '32-pdr'
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/76mm')
-def 76mm():
+def seventy6mm():
     name = '76mm'
     return render_template('Caliber.html', name = name)
 
