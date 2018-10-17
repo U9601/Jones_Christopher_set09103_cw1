@@ -242,7 +242,7 @@ def eightpoint8cm():
     return render_template('Caliber.html', name = name)
 
 @app.route('/caliber/32-pdr')
-def thirthy2-pdr():
+def thirthy2pdr():
     name = '32-pdr'
     return render_template('Caliber.html', name = name)
 
