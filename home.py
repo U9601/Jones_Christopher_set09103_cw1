@@ -66,9 +66,9 @@ def T54():
     name = 'T-54'
     return render_template('MediumTanks.html', name = name)
 
-@app.route('/mediumtank/M46Pershing/')
-def M46Pershing():
-    name = 'M46Pershing'
+@app.route('/mediumtank/M26Pershing/')
+def M2Pershing():
+    name = 'M26Pershing'
     return render_template('MediumTanks.html', name = name)
 
 
