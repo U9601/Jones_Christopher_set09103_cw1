@@ -68,16 +68,10 @@
   display: block;
 }
 
-@font-face {
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
-}
 
 body, html {
     height: 100%;
-    font-family: Ubuntu, "times new roman", times, roman, serif;
+
 }
 
 .break{
