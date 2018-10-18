@@ -227,7 +227,7 @@ def onehundred30mm():
 
 @app.route('/caliber/120mm')
 def onehundred20mm():
-    name = '90mm'
+    name = '120mm'
     return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/12.8cm')
