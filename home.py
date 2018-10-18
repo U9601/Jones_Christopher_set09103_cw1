@@ -3,7 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-        return render_template('home.html')
+    name = ''
+    return render_template('home.html', name = name)
 
 @app.route('/lighttank')
 def lighttank():
@@ -254,6 +255,13 @@ def thirthy2pdr():
 def seventy6mm():
     name = '76mm'
     return render_template('Calibers.html', name = name)
+
+@app.route('/<other>')
+def other(other):
+    name = 'other'
+    return render_template('home.html', name = name)
+
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
