@@ -68,15 +68,6 @@
   display: block;
 }
 
-h1 {
-    font-family: "Ubuntu";
-    font-size: 18px;
-    font-weight: bold;
-    font-variant: normal;
-    font-style: normal;
-    letter-spacing: 1.4px;
-}
-
 @font-face {
     font-family: 'Ubuntu';
     font-style: normal;
