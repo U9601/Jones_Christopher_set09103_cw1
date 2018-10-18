@@ -180,7 +180,7 @@ def Swedish():
 @app.route('/caliber')
 def caliber():
     name = ''
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/Caliber')
 def Caliber():
@@ -193,62 +193,62 @@ def calibers():
 @app.route('/caliber/100mm')
 def one00mm():
     name = '100mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/37mm')
 def thirty7mm():
     name = '37mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/152mm')
 def onehundred52mm():
     name = '152mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/2cm')
 def twocm():
     name = '2cm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/105mm')
 def onehundred05mm():
     name = '105mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/90mm')
 def nintymm():
     name = '90mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/130mm')
 def onehundred30mm():
     name = '130mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/120mm')
 def onehundred20mm():
     name = '90mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/12.8cm')
 def twelevepoint8cm():
     name = '12.8cm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/8.8cm')
 def eightpoint8cm():
     name = '8.8cm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/32-pdr')
 def thirthy2pdr():
     name = '32-pdr'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 @app.route('/caliber/76mm')
 def seventy6mm():
     name = '76mm'
-    return render_template('Caliber.html', name = name)
+    return render_template('Calibers.html', name = name)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
