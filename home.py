@@ -18,22 +18,22 @@ def lightanks():
 def LightTank():
         return redirect( url_for ('lighttank') )
 
-@app.route('/lighttank/T-100LT/')
+@app.route('/lighttank/t-100lt/')
 def T100LT():
     name = 'T-100LT'
     return render_template('LightTanks.html', name = name)
 
-@app.route('/lighttank/M3Stuart/')
+@app.route('/lighttank/m3stuart/')
 def M3Stuart():
     name = 'M3Stuart'
     return render_template('LightTanks.html', name = name)
 
-@app.route('/lighttank/Sheridan/')
+@app.route('/lighttank/sheridan/')
 def Sheridan():
     name = 'Sheridan'
     return render_template('LightTanks.html', name = name)
 
-@app.route('/lighttank/PanzerII/')
+@app.route('/lighttank/panzerii/')
 def PanzerII():
     name = 'PanzerII'
     return render_template('LightTanks.html', name = name)
@@ -51,22 +51,22 @@ def MediumTank():
 def mediumtanks():
         return redirect( url_for ('mediumtank') )
 
-@app.route('/mediumtank/Object140/')
+@app.route('/mediumtank/object140/')
 def Object140():
     name = 'Object140'
     return render_template('MediumTanks.html', name = name)
 
-@app.route('/mediumtank/CenturionActionX/')
+@app.route('/mediumtank/centurionactionx/')
 def CenturionActionX():
     name = 'CenturionActionX'
     return render_template('MediumTanks.html', name = name)
 
-@app.route('/mediumtank/T-54/')
+@app.route('/mediumtank/t-54/')
 def T54():
     name = 'T-54'
     return render_template('MediumTanks.html', name = name)
 
-@app.route('/mediumtank/M26Pershing/')
+@app.route('/mediumtank/m26pershing/')
 def M2Pershing():
     name = 'M26Pershing'
     return render_template('MediumTanks.html', name = name)
@@ -85,22 +85,22 @@ def HeavyTank():
 def heavytanks():
         return redirect( url_for ('heavytank') )
 
-@app.route('/heavytank/Object277/')
+@app.route('/heavytank/object277/')
 def Object277():
     name = 'Object277'
     return render_template('HeavyTanks.html', name = name)
 
-@app.route('/heavytank/Challenger2/')
+@app.route('/heavytank/challenger2/')
 def Challenger2():
     name = 'Challenger2'
     return render_template('HeavyTanks.html', name = name)
 
-@app.route('/heavytank/Maus/')
+@app.route('/heavytank/maus/')
 def Maus():
     name = 'Maus'
     return render_template('HeavyTanks.html', name = name)
 
-@app.route('/heavytank/Tiger/')
+@app.route('/heavytank/tiger/')
 def Tiger():
     name = 'Tiger'
     return render_template('HeavyTanks.html', name = name)
@@ -119,12 +119,12 @@ def tankdestroyer():
         return redirect( url_for ('tankdestroyers') )
 
 
-@app.route('/tankdestroyers/JagdTiger/')
+@app.route('/tankdestroyers/jagdtiger/')
 def JagdTiger():
     name = 'JagdTiger'
     return render_template('TankDestroyers.html', name = name)
 
-@app.route('/tankdestroyers/StrvS1/')
+@app.route('/tankdestroyers/strvs1/')
 def StrvS1():
     name = 'StrvS1'
     return render_template('TankDestroyers.html', name = name)
