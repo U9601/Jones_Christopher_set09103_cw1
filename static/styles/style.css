@@ -74,6 +74,11 @@ body, html {
 
 .break{
   height:75px;
+}
+
+.break2{
+    height:5px;
+  }
 
 .hero-image41 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
