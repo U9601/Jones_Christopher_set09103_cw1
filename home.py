@@ -145,6 +145,11 @@ def Hellcat():
     name = 'Hellcat'
     return render_template('TankDestroyers.html', name = name)
 
+@app.route('/tankdestroyers/<other>')
+def tankdestroyersother(other):
+    name = 'other'
+    return render_template('Nations.html', name = name)
+
 @app.route('/nations')
 def nations():
     name = ''
@@ -181,6 +186,11 @@ def American():
 @app.route('/nations/swedish')
 def Swedish():
     name = 'Swedish'
+    return render_template('Nations.html', name = name)
+
+@app.route('/nations/<other>')
+def nationsother(other):
+    name = 'other'
     return render_template('Nations.html', name = name)
 
 @app.route('/caliber')
@@ -254,6 +264,11 @@ def thirthy2pdr():
 @app.route('/caliber/76mm')
 def seventy6mm():
     name = '76mm'
+    return render_template('Calibers.html', name = name)
+
+@app.route('/caliber/<other>')
+def caliberother(other):
+    name = 'other'
     return render_template('Calibers.html', name = name)
 
 @app.route('/<other>')

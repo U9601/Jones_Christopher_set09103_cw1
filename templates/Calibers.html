@@ -104,13 +104,21 @@
       </div>
       </div>
     {% elif name == '' %}
-    <div class="hero-image41">
-    <div class="hero-text">
-      <center><h1>Tanks by Gun Caliber </h1>
-        <h2>All Listed Tanks by Gun Caliber</h2>
-     </center>
-    </div>
-    </div>
+      <div class="hero-image41">
+      <div class="hero-text">
+        <center><h1>Tanks by Gun Caliber </h1>
+          <h2>All Listed Tanks by Gun Caliber</h2>
+       </center>
+      </div>
+      </div>
+    {% elif name == 'other' %}
+      <div class="hero-image41">
+      <div class="hero-text">
+        <center><h3>Error 404: The Tank you have requested does not exist D: </h3>
+          <h2>No Matter, you can now see on the Tank Gun Calibers Below</h2>
+       </center>
+      </div>
+      </div>
     {% endif %}
   {% endblock %}
   <div class="navbar">
@@ -343,7 +351,7 @@
      </div>
     </div>
    </div>
-   {% elif name == '' %}
+   {% elif name == '' or name == 'other' %}
    <div class="w3-main" style="margin-left:0px">
    <div class="w3-hide-large" style="margin-top:150px"></div>
    <div class="w3-row">

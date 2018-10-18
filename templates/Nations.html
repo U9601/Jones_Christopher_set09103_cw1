@@ -55,6 +55,14 @@
         </center>
       </div>
       </div>
+    {% elif name == 'other' %}
+        <div class="hero-image23">
+        <div class="hero-text">
+          <center><h3>Error 404: The Nation you have requested does not exist D: </h3>
+            <h2>No Matter, you can now see all the Tank Nations Below</h2>
+         </center>
+        </div>
+        </div>
     {% endif %}
   {% endblock %}
 
@@ -211,7 +219,7 @@
         <h1>Strv S1</h1>
       </div>
     </div>
-  {% elif name == '' %}
+  {% elif name == '' or name == 'other' %}
   <div class="w3-main" style="margin-left:300px">
   <div class="w3-hide-large" style="margin-top:83px"></div>
   <div class="w3-row">
