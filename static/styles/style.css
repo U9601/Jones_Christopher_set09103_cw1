@@ -80,10 +80,10 @@ body, html {
     height:5px;
   }
 
-  h3 {
+h3{
     font-weight: bold;
     font-size: 500%;
-  }
+}
 
 .hero-image41 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
