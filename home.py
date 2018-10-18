@@ -38,6 +38,11 @@ def PanzerII():
     name = 'PanzerII'
     return render_template('LightTanks.html', name = name)
 
+@app.route('/lighttank/<other>')
+def ligttankother(other):
+    name = 'other'
+    return render_template('LightTanks.html', name = name)
+
 @app.route('/mediumtank')
 def mediumtank():
     name = ''
