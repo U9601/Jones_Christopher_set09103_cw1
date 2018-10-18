@@ -40,13 +40,21 @@
       </div>
       </div>
     {% elif name == '' %}
-    <div class="hero-image19">
-    <div class="hero-text">
-      <center><h1>All Heavy Tanks </h1>
-        <h2>All Listed Heavy Tanks</h2>
-     </center>
-    </div>
-    </div>
+      <div class="hero-image19">
+      <div class="hero-text">
+        <center><h1>All Heavy Tanks </h1>
+          <h2>All Listed Heavy Tanks</h2>
+       </center>
+      </div>
+      </div>
+    {% elif name == 'other' %}
+        <div class="hero-image19">
+        <div class="hero-text">
+          <center><h3>Error 404: The Heavy Tank you have requested does not exist or cannot be found (lowercase letter and check spelling) D: </h3>
+            <h2>No Matter, you can now see all the Heavy Tanks Below</h2>
+         </center>
+        </div>
+        </div>
     {% endif %}
   {% endblock %}
 
@@ -242,7 +250,7 @@
         <li>Turret Armour: 100/80/80 mm</li>
       </ul>
     </ul>
-    {% elif name == '' %}
+    {% elif name == '' or name = 'other' %}
     <div class="w3-main" style="margin-left:0px">
     <div class="w3-hide-large" style="margin-top:83px"></div>
     <div class="w3-row">

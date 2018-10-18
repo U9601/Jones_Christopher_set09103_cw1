@@ -77,6 +77,10 @@ def M2Pershing():
     name = 'M26Pershing'
     return render_template('MediumTanks.html', name = name)
 
+@app.route('/mediumtank/<other>')
+def mediumtankother(other):
+    name = 'other'
+    return render_template('MediumTanks.html', name = name)
 
 @app.route('/heavytank/')
 def heavytank():
@@ -110,6 +114,12 @@ def Maus():
 def Tiger():
     name = 'Tiger'
     return render_template('HeavyTanks.html', name = name)
+
+@app.route('/heavytank/<other>')
+def heavytankother(other):
+    name = 'other'
+    return render_template('HeavyTanks.html', name = name)
+
 
 @app.route('/tankdestroyers')
 def tankdestroyers():

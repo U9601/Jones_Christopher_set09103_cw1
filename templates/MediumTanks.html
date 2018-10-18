@@ -47,6 +47,14 @@
         </center>
       </div>
       </div>
+    {% elif name == 'other' %}
+        <div class="hero-image21">
+        <div class="hero-text">
+          <center><h3>Error 404: The Medium Tank you have requested does not exist or cannot be found (lowercase letter and check spelling) D: </h3>
+            <h2>No Matter, you can now see all the Medium Tanks Below</h2>
+         </center>
+        </div>
+        </div>
     {% endif %}
   {% endblock %}
 
@@ -229,7 +237,7 @@
       <li>Turret Armour: 101.6/76.2/76.2 mm</li>
     </ul>
   </ul>
-  {% elif name == '' %}
+  {% elif name == '' or name == 'other' %}
   <div class="w3-main" style="margin-left:0px">
   <div class="w3-hide-large" style="margin-top:83px"></div>
   <div class="w3-row">

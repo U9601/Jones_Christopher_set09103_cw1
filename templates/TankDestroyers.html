@@ -50,7 +50,7 @@
     {% elif name == 'other' %}
         <div class="hero-image22">
         <div class="hero-text">
-          <center><h3>Error 404: The Tank you have requested does not exist D: </h3>
+          <center><h3>Error 404: The Tank you have requested does not exist or cannot be found (lowercase letter and check spelling) D: </h3>
             <h2>No Matter, you can now see all the Tank Destroyers Below</h2>
          </center>
         </div>
@@ -238,7 +238,7 @@ It has a very powerful 32-pounder anti-tank gun, one of the most powerful guns a
         <li>Turret Armour: 25.4/12.7/12.7 mm</li>
       </ul>
     </ul>
-  {% elif name == '' %}
+  {% elif name == '' or name == 'other' %}
   <div class="w3-main" style="margin-left:0px">
   <div class="w3-hide-large" style="margin-top:83px"></div>
   <div class="w3-row">
