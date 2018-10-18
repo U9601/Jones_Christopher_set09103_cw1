@@ -235,7 +235,6 @@ def twelevepoint8cm():
     name = '12.8cm'
     return render_template('Caliber.html', name = name)
 
-
 @app.route('/caliber/8.8cm')
 def eightpoint8cm():
     name = '8.8cm'
@@ -250,14 +249,6 @@ def thirthy2pdr():
 def seventy6mm():
     name = '76mm'
     return render_template('Caliber.html', name = name)
-
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
