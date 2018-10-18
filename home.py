@@ -129,12 +129,12 @@ def StrvS1():
     name = 'StrvS1'
     return render_template('TankDestroyers.html', name = name)
 
-@app.route('/tankdestroyers/ChurchillGunCarrier/')
+@app.route('/tankdestroyers/churchillguncarrier/')
 def ConqueorGunCarrier():
     name = 'ChurchillGunCarrier'
     return render_template('TankDestroyers.html', name = name)
 
-@app.route('/tankdestroyers/Hellcat/')
+@app.route('/tankdestroyers/hellcat/')
 def Hellcat():
     name = 'Hellcat'
     return render_template('TankDestroyers.html', name = name)
@@ -152,27 +152,27 @@ def Nations():
 def nation():
     return redirect( url_for ('nations') )
 
-@app.route('/nations/German')
+@app.route('/nations/german')
 def German():
     name = 'German'
     return render_template('Nations.html', name = name)
 
-@app.route('/nations/Russian')
+@app.route('/nations/russian')
 def Russian():
     name = 'Russian'
     return render_template('Nations.html', name = name)
 
-@app.route('/nations/British')
+@app.route('/nations/british')
 def British():
     name = 'British'
     return render_template('Nations.html', name = name)
 
-@app.route('/nations/American')
+@app.route('/nations/american')
 def American():
     name = 'American'
     return render_template('Nations.html', name = name)
 
-@app.route('/nations/Swedish')
+@app.route('/nations/swedish')
 def Swedish():
     name = 'Swedish'
     return render_template('Nations.html', name = name)
