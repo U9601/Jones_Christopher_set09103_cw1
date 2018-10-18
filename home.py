@@ -3,8 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    name = ''
-    return render_template('home.html', name = name)
+    return render_template('home.html')
 
 @app.route('/lighttank')
 def lighttank():
