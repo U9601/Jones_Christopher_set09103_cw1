@@ -288,7 +288,7 @@ h3{
 
 .hero-image27 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/USA Flag.png");
 
     /* Set a specific height */
     height: 50%;
@@ -302,7 +302,7 @@ h3{
 
 .hero-image26 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/UK Flag.png");
 
     /* Set a specific height */
     height: 50%;
@@ -316,7 +316,7 @@ h3{
 
 .hero-image25 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.gettysburgflag.com/media/catalog/product/cache/2/thumbnail/520x416/602f0fa2c1f0d1ba5e241f914e856ff9/u/s/ussr-flag.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/soviet flag.png");
 
     /* Set a specific height */
     height: 50%;
@@ -330,7 +330,7 @@ h3{
 
 .hero-image24 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.warstore.co.uk/ekmps/shops/marlina/images/german-ww2-balkenkreuz-nazi-5-x-3-flag-3188-p.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/GermanWW2Flag.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -344,7 +344,7 @@ h3{
 
 .hero-image23 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img00.deviantart.net/2b03/i/2015/117/5/a/south_park_wwii_nations_by_southparkphilosopher-d47mi77.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/nations.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -358,7 +358,7 @@ h3{
 
 .hero-image22 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://qph.fs.quoracdn.net/main-qimg-6eaa48368802a6374868bf16dacfaff6-c");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/TD's.jpeg");
 
     /* Set a specific height */
     height: 50%;
@@ -372,7 +372,7 @@ h3{
 
 .hero-image21 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.wwiivehicles.com/united-states/vehicle/medium-tank/m4-medium-tank-sherman/m4a3-medium-tank-sherman/m4a3e8-medium-tank-sherman-09.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/medium tanks.png");
 
     /* Set a specific height */
     height: 50%;
@@ -386,7 +386,7 @@ h3{
 
 .hero-image20 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.military-today.com/tanks/mars_15.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/light tanks.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -400,7 +400,7 @@ h3{
 
 .hero-image19 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/PaCIAvBZ2ug/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/heavy tanks.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -414,7 +414,7 @@ h3{
 
 .hero-image18 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/M18_hellcat_side.jpg/1200px-M18_hellcat_side.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Hellcat.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -428,7 +428,7 @@ h3{
 
 .hero-image17 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/P16by37lPOU/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Churchill Gun Carrier.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -442,7 +442,7 @@ h3{
 
 .hero-image16 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/Eal7XU0cABA/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Strv S1.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -456,7 +456,7 @@ h3{
 
 .hero-image15 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/ih6xHTrGUsc/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/JagdTiger.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -470,7 +470,7 @@ h3{
 
 .hero-image14 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/ih6xHTrGUsc/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/JagdTiger.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -484,7 +484,7 @@ h3{
 
 .hero-image13 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/iKW-W8im-2U/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/M26 Pershing.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -499,7 +499,7 @@ h3{
 
 .hero-image12 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/iDjKNmizfUY/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/T-54.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -513,7 +513,7 @@ h3{
 
 .hero-image11 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/PLO1q4VbC24/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Centarion Action X.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -527,7 +527,7 @@ h3{
 
 .hero-image10 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/ev_BsaoArsU/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Object 140.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -541,7 +541,7 @@ h3{
 
 .hero-image9 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/d/d7/Sd_Kfz_121_Panzerkampfwagen_II_Ausf_F_%28Panzer_II%29_%284536135405%29.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Panzer II.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -555,7 +555,7 @@ h3{
 
 .hero-image8 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://armyhistory.org/wp-content/uploads/2015/01/DA-SC-98-030351-1024x662.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Sheridan.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -569,7 +569,7 @@ h3{
 
 .hero-image7 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/s8CgIxGAJTM/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/M3 Stuart.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -583,7 +583,7 @@ h3{
 
 .hero-image6 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/fmeDdCMzns0/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/T-100LT.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -598,7 +598,7 @@ h3{
 
 .hero-image5 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.therookies.co/media/reviews/photos/original/e7/22/79/john-olofinskiy-tiger-tank-study-29-1523524781.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Tiger.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -613,7 +613,7 @@ h3{
 
 .hero-image4 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/ntgMWbtwCec/maxresdefault.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Maus.jpg");
 
     /* Set a specific height */
     height: 50%;
@@ -627,7 +627,7 @@ h3{
 
 .hero-image3 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Challenger_2_Main_Battle_Tank_patrolling_outside_Basra%2C_Iraq_MOD_45148325.jpg/1200px-Challenger_2_Main_Battle_Tank_patrolling_outside_Basra%2C_Iraq_MOD_45148325.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/static/images/Challenger2.jpg");
 
     /* Set a specific height */
     height: 50%;
