@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <!--These are links to various style sheets I use and adding my favicon to the page-->
   <link rel="shortcut icon"  href="{{ url_for('static',filename='images/favicon.ico') }}"/>
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu"/>
@@ -7,6 +8,7 @@
 </head>
 <body>
   <body bgcolor="#556B2F">
+  <!--Same as other 2 pages -->
   {% block content %}
     {% if name == 'Object277' %}
       <div class="hero-image2">
@@ -58,7 +60,7 @@
         </div>
     {% endif %}
   {% endblock %}
-
+  <!-- navbar -->
   <div class="navbar">
     <a href="/"><img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/home.png") }}></a>
   <div class="dropdown">
@@ -137,6 +139,8 @@
     </div>
   </div>
  </div>
+  <!--This is where informtaion about each heavy tank is displayed depnding on what down dropbtn
+  the user clicked on-->
   {% if name == 'Object277' %}
   <h4> Developed in 1956–1958 at the Kirov Plant, Leningrad, under the supervision of Joseph Kotin. Two prototypes were produced and underwent trials from 1959 through 1960.
     A hull and a turret were produced for testing for shell resistance. The development was discontinued in the summer of 1960 due to insufficient development of certain systems and components.
@@ -251,6 +255,7 @@
         <li>Turret Armour: 100/80/80 mm</li>
       </ul>
     </ul>
+    <!--Same as other 2 pages only if a picture is clicked-->
     {% elif name == '' or name == 'other' %}
     <div class="w3-main" style="margin-left:0px">
     <div class="w3-hide-large" style="margin-top:83px"></div>

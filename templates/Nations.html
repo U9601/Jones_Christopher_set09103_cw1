@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <!--These are links to various style sheets I use and adding my favicon to the page-->
   <link rel="shortcut icon"  href="{{ url_for('static',filename='images/favicon.ico') }}"/>
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu"/>
@@ -145,6 +146,8 @@
     </div>
   </div>
  </div>
+ <!--Exact same as every other page execpt instead of tanks its nations with their respected
+  tanks linked below-->
   {% if name == 'German' %}
   <div class="w3-main" style="margin-left:300px">
   <div class="w3-hide-large" style="margin-top:83px"></div>

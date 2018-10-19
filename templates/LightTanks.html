@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <head>
+  <!--These are links to various style sheets I use and adding my favicon to the page-->
   <link rel="shortcut icon"  href="{{ url_for('static',filename='images/favicon.ico') }}"/>
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
+  <!--All Heavy, Medium, Light and Tank destroyers use the same design system so I will
+  stop commenting them-->
   <body bgcolor="#556B2F">
   {% block content %}
     {% if name == 'T-100LT' %}

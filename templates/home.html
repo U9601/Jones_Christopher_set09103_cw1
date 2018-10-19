@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <head>
+  <!--These are links to various style sheets I use and adding my favicon to the page-->
   <link rel="shortcut icon"  href="{{ url_for('static',filename='images/favicon.ico') }}"/>
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--Using jinja to find out how the user has go to this webpage and therefore determine
+  what they see on the website using jinja if statements-->
   {% block content %}
     {% if name == '' %}
       <div class="hero-image">
       <div class="hero-text">
-          <center><h1>Tanks Dictionary</h1>
-          <h2>Welcome to my Super Amazing Website</h2>
+          <center><h1>Tanks Directory</h1>
+          <h2>Welcome User, here you will find out about tanks from different eras</h2>
           </center>
         </div>
       </div>
+      <!--Used if the user enters a url that doesnt exist-->
     {% elif name == 'other' or name =='404' %}
         <div class="hero-image">
         <div class="hero-text">
@@ -24,9 +28,11 @@
      {% endif %}
     {% endblock %}
 
-
+    <!--The nav bar which contains drop downs to find out about tanks and nations etc, All pictures
+    are stored inside the project-->
     <div class="navbar">
       <a href="/"><img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/home.png") }}></a>
+    <!--This is where the dropdown is created there is 6 of them-->
     <div class="dropdown">
       <button class="dropbtn">Light Tanks
         <i class="fa fa-caret-down"></i>
@@ -105,10 +111,14 @@
     </div>
 </head>
 <body>
+  <!--setting up the body colour-->
   <body bgcolor="#556B2F">
+  <!--creating the grid layout on the homepage of a 3x2 and setting it in the center using
+  the margin-left style-->
   <div class="w3-main" style="margin-left:300px">
   <div class="w3-hide-large" style="margin-top:83px"></div>
   <div class="w3-row">
+    <!--Entering the data into the grid along with pictures-->
     <div class="w3-third">
       <img class="dImg" width="380" height="300" onclick="window.location.href= '/lighttank'" src={{ url_for('static', filename="images/M3 Sturat HP.jpg")  }}>
       <h1>Light Tanks</h1>
