@@ -59,16 +59,16 @@
   {% endblock %}
 
   <div class="navbar">
-    <a href="/"><img src="http://www.wyelearn.co.uk/img/homeGen.png" width="20" height="20"> </a>
+    <a href="/"><img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/home.png") }}></a>
   <div class="dropdown">
     <button class="dropbtn">Light Tanks
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/lighttank/t-100lt">T-100 LT <img src="https://img1.cgtrader.com/items/107300/1abbecbec7/large/soviet-star-3d-model-max-obj-ma-mb.jpg" width="20" height="20"></a>
-      <a href="/lighttank/m3stuart">M3 Stuart <img src="https://spot86.com/dev/wp-content/uploads/2015/10/us-vintage-army-star-T-Shirts.jpg" width="20" height="20"></a>
-      <a href="/lighttank/sheridan">Sheridan <img src="https://spot86.com/dev/wp-content/uploads/2015/10/us-vintage-army-star-T-Shirts.jpg" width="20" height="20"></a>
-      <a href="/lighttank/panzerii">Panzer II <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Regulation_WW_II_Upperwing_Balkenkreuz.png/150px-Regulation_WW_II_Upperwing_Balkenkreuz.png" width="20" height="20"></a>
+      <a href="/lighttank/t-100lt">T-100 LT <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/soviet star.jpg")  }}></a>
+      <a href="/lighttank/m3stuart">M3 Stuart <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/American star.jpg") }}></a>
+      <a href="/lighttank/sheridan">Sheridan <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/American star.jpg")  }}></a>
+      <a href="/lighttank/panzerii">Panzer II <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/German Cross.png")  }}></a>
     </div>
   </div>
   <div class="dropdown">
@@ -76,10 +76,10 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/mediumtank/object140">Object 140 <img src="https://img1.cgtrader.com/items/107300/1abbecbec7/large/soviet-star-3d-model-max-obj-ma-mb.jpg" width="20" height="20"></a>
-      <a href="/mediumtank/centurionactionx">Centurion Action X <img src="  http://sites1.christophlutz.co.uk/gbmag/wp-content/uploads/2017/01/UK-flag-union-jack-1024x683.jpg" width="20" height="20"></a>
-      <a href="/mediumtank/t-54">T-54 <img src="https://img1.cgtrader.com/items/107300/1abbecbec7/large/soviet-star-3d-model-max-obj-ma-mb.jpg" width="20" height="20"></a>
-      <a href="/mediumtank/m26pershing">M26 Pershing <img src="https://spot86.com/dev/wp-content/uploads/2015/10/us-vintage-army-star-T-Shirts.jpg" width="20" height="20"></a>
+      <a href="/mediumtank/object140">Object 140 <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/soviet star.jpg") }}></a>
+      <a href="/mediumtank/centurionactionx">Centurion Action X <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/UK union flag.jpg")  }}></a>
+      <a href="/mediumtank/t-54">T-54 <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/soviet star.jpg")  }}></a>
+      <a href="/mediumtank/m26pershing">M26 Pershing <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/American star.jpg")  }}></a>
     </div>
   </div>
   <div class="dropdown">
@@ -87,10 +87,10 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/heavytank/object277">Object 277 <img src="https://img1.cgtrader.com/items/107300/1abbecbec7/large/soviet-star-3d-model-max-obj-ma-mb.jpg" width="20" height="20"></a>
-      <a href="/heavytank/challenger2">Challenger 2 <img src="  http://sites1.christophlutz.co.uk/gbmag/wp-content/uploads/2017/01/UK-flag-union-jack-1024x683.jpg" width="20" height="20"></a>
-      <a href="/heavytank/maus">Maus <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Regulation_WW_II_Upperwing_Balkenkreuz.png/150px-Regulation_WW_II_Upperwing_Balkenkreuz.png" width="20" height="20"></a>
-      <a href="/heavytank/tiger">Tiger <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Regulation_WW_II_Upperwing_Balkenkreuz.png/150px-Regulation_WW_II_Upperwing_Balkenkreuz.png" width="20" height="20"></a>
+      <a href="/heavytank/object277">Object 277 <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/soviet star.jpg")  }}></a>
+      <a href="/heavytank/challenger2">Challenger 2 <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/UK union flag.jpg")  }}></a>
+      <a href="/heavytank/maus">Maus <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/German Cross.png")  }}></a>
+      <a href="/heavytank/tiger">Tiger <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/German Cross.png")  }}></a>
     </div>
   </div>
   <div class="dropdown">
@@ -98,10 +98,10 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/tankdestroyers/jagdtiger">JagdTiger <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Regulation_WW_II_Upperwing_Balkenkreuz.png/150px-Regulation_WW_II_Upperwing_Balkenkreuz.png" width="20" height="20"></a>
-      <a href="/tankdestroyers/strvs1">Strv S1<img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg" width="20" height="20"></a>
-      <a href="/tankdestroyers/churchillguncarrier">Churchill Gun Carrier <img src="http://sites1.christophlutz.co.uk/gbmag/wp-content/uploads/2017/01/UK-flag-union-jack-1024x683.jpg" width="20" height="20"></a>
-      <a href="/tankdestroyers/hellcat">Hellcat <img src="https://spot86.com/dev/wp-content/uploads/2015/10/us-vintage-army-star-T-Shirts.jpg" width="20" height="20"></a>
+      <a href="/tankdestroyers/jagdtiger">JagdTiger <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/German Cross.png") }}></a>
+      <a href="/tankdestroyers/strvs1">Strv S1 <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/Swedish Flag.png")  }}></a>
+      <a href="/tankdestroyers/churchillguncarrier">Churchill Gun Carrier <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/UK union flag.jpg")  }}></a>
+      <a href="/tankdestroyers/hellcat">Hellcat <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/American star.jpg")  }}></a>
     </div>
   </div>
   <div class="dropdown">
@@ -109,11 +109,11 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="/nations/german">German <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Regulation_WW_II_Upperwing_Balkenkreuz.png/150px-Regulation_WW_II_Upperwing_Balkenkreuz.png" width="20" height="20"></a>
-      <a href="/nations/russian">Soviet(Russian)<img src="https://img1.cgtrader.com/items/107300/1abbecbec7/large/soviet-star-3d-model-max-obj-ma-mb.jpg" width="20" height="20"></a>
-      <a href="/nations/british">British<img src="http://sites1.christophlutz.co.uk/gbmag/wp-content/uploads/2017/01/UK-flag-union-jack-1024x683.jpg" width="20" height="20"></a>
-      <a href="/nations/american">American <img src="https://spot86.com/dev/wp-content/uploads/2015/10/us-vintage-army-star-T-Shirts.jpg" width="20" height="20"></a>
-      <a href="/nations/swedish">Swedish <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg" width="20" height="20"></a>
+      <a href="/nations/german">German <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/German Cross.png")  }}></a>
+      <a href="/nations/russian">Soviet(Russian)<img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/soviet star.jpg")  }}></a>
+      <a href="/nations/british">British<img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/UK Flag.png") }}></a>
+      <a href="/nations/american">American <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/USA Flag.png") }}></a>
+      <a href="/nations/swedish">Swedish <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/Swedish Flag.png")  }}></a>
     </div>
   </div>
   <div class="dropdown">
@@ -122,7 +122,7 @@
     </button>
     <div class="dropdown-content">
       <a href="/caliber/100mm">100m <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/100mm round.jpg")  }}></a>
-      <a href="/caliber/37mm">37mm<img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/37mm round.jpeg")  }}></a>
+      <a href="/caliber/37mm">37mm<img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/37mm round.jpg")  }}></a>
       <a href="/caliber/152mm">152mm<img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/152mm round.jpeg")  }}></a>
       <a href="/caliber/2cm">2cm <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/2cm round.JPG")  }}></a>
       <a href="/caliber/105mm">105mm <img class="dImg" width="20" height="20" src={{ url_for('static', filename="images/105mm round.jpg")  }}></a>
