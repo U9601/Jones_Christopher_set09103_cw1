@@ -5,7 +5,6 @@
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu"/>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <title> Gun Calibers </title>
 </head>
 <body>
 <body bgcolor="#556B2F">
@@ -13,6 +12,7 @@
   displaying the correct background picture-->
   {% block content %}
     {% if name == '100mm' %}
+      <title>The 100mm Guns</title>
       <div class="hero-image29">
       <div class="hero-text">
         <center><h1>The 100mm Gun</h1>
@@ -21,6 +21,7 @@
       </div>
       </div>
     {% elif name == '37mm' %}
+      <title>The 37mm Guns</title>
       <div class="hero-image30">
       <div class="hero-text">
         <center><h1>The 37mm Gun</h1>
@@ -29,6 +30,7 @@
       </div>
       </div>
     {% elif name == '152mm' %}
+      <title>The 152mm Launchers</title>
       <div class="hero-image31">
       <div class="hero-text">
         <center><h1>The 152mm Launchers</h1>
@@ -37,6 +39,7 @@
       </div>
       </div>
     {% elif name == '2cm' %}
+      <title>The 2cm Machine Guns</title>
       <div class="hero-image32">
       <div class="hero-text">
         <center><h1>The 2cm Machine Guns</h1>
@@ -45,6 +48,7 @@
       </div>
       </div>
     {% elif name == '105mm' %}
+      <title>The 105mm Guns</title>
       <div class="hero-image33">
       <div class="hero-text">
         <center><h1>The 105mm Gun</h1>
@@ -53,14 +57,16 @@
       </div>
       </div>
     {% elif name == '90mm' %}
+      <title>The 90mm Guns</title>
       <div class="hero-image34">
       <div class="hero-text">
-        <center><h1>The 90mm Gun</h1>
+        <center><h1>The90mm Guns</h1>
           <h2>Tanks with 90mm Guns</h2>
        </center>
       </div>
       </div>
     {% elif name == '130mm' %}
+      <title>The 130mm Guns</title>
       <div class="hero-image35">
       <div class="hero-text">
         <center><h1>The 130mm Gun </h1>
@@ -69,6 +75,7 @@
       </div>
       </div>
     {% elif name == '120mm' %}
+      <title>The 120mm Guns</title>
       <div class="hero-image36">
       <div class="hero-text">
         <center><h1>The 120mm Gun</h1>
@@ -77,6 +84,7 @@
       </div>
       </div>
     {% elif name == '12.8cm' %}
+      <title>The 12.8cm Guns</title>
       <div class="hero-image37">
       <div class="hero-text">
         <center><h1>The 12.8cm Gun</h1>
@@ -85,6 +93,7 @@
       </div>
       </div>
     {% elif name == '8.8cm' %}
+      <title>The 8.8cm Guns</title>
       <div class="hero-image38">
       <div class="hero-text">
         <center><h1>The 8.8cm Gun</h1>
@@ -93,6 +102,7 @@
       </div>
       </div>
     {% elif name == '32-pdr' %}
+      <title>The 32-pdr Guns</title>
       <div class="hero-image39">
       <div class="hero-text">
         <center><h1>The 32-pdr Gun</h1>
@@ -101,6 +111,7 @@
       </div>
       </div>
     {% elif name == '76mm' %}
+      <title>The 76mm Guns</title>
       <div class="hero-image40">
       <div class="hero-text">
         <center><h1>The 76mm Gun </h1>
@@ -110,6 +121,7 @@
       </div>
     <!--This is used if the user clicks on the picture rather than using the down drop-->
     {% elif name == '' %}
+      <title>Gun Calibers</title>
       <div class="hero-image41">
       <div class="hero-text">
         <center><h1>Tanks by Gun Caliber </h1>
@@ -119,6 +131,7 @@
       </div>
     <!--Error 404-->
     {% elif name == 'other' %}
+      <title>Error 404: FeelsBadMan D: </title>
       <div class="hero-image41">
       <div class="hero-text">
         <center><h3>Error 404: The Tank you have requested does not exist or cannot be found (Please use lowercase letters or check spelling) D: </h3>

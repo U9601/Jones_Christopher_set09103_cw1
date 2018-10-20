@@ -5,11 +5,11 @@
   <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <title> Home Page </title>
   <!--Using jinja to find out how the user has go to this webpage and therefore determine
   what they see on the website using jinja if statements-->
   {% block content %}
     {% if name == '' %}
+      <title> Home Page </title>
       <div class="hero-image">
       <div class="hero-text">
           <center><h1>Tanks Directory</h1>
@@ -19,6 +19,7 @@
       </div>
       <!--Used if the user enters a url that doesnt exist-->
     {% elif name == 'other' or name =='404' %}
+        <title> Error 404: FeelsBadMan D:</title>
         <div class="hero-image">
         <div class="hero-text">
             <h3><center>Error 404: The Tank you have requested does not exist or cannot be found (Please use lowercase letters or check spelling) D:<h3>
