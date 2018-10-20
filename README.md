@@ -16,7 +16,7 @@
 
 ## To start on Windows:
 
-* First open Putty and type ssh MatricNo@set09103.napier.ac.uk
+* First open Putty and type ssh MatricNo@set09103.napier.ac.uk into the box where it asks for the tunnel path
  * You will then be promted to type your password in 
  * Once logged in type the following 2 commands into the terminal in no particular order 
    * export FLASK_ENV=development (ensures the server is using the right environment
